@@ -1,0 +1,16 @@
+[package]
+name = "bookreading"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule= "0x4a7074da21e97c0f2c5a31a8a4bcd6516cd01a44d2fef3b7723b48987fc47bb4"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
